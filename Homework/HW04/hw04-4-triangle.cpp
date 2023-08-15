@@ -13,3 +13,15 @@
     Output:
         Triagle Area : 7.5
 */
+#include <stdio.h>
+int main(){
+    
+float high ;
+float width ;
+float area ;
+
+printf("Enter H & W : ");
+scanf("%e %e",&high ,&width);
+area = high * width ;
+printf("Triagle Area : %0.1f",area);
+}
