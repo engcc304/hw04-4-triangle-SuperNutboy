@@ -20,8 +20,8 @@ float high ;
 float width ;
 float area ;
 
-printf("Enter H & W : ");
+printf("Enter H & W : \n");
 scanf("%e %e",&high ,&width);
-area = high * width ;
+area = 0.5 * high * width ;
 printf("Triagle Area : %0.1f",area);
 }
